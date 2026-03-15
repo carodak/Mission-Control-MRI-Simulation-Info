@@ -114,6 +114,14 @@ code {
   color: var(--text-on-dark);
 }
 
+.hero-banner {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  border-radius: 12px;
+}
+
 .hero {
   padding: 5rem 0 4rem;
 }
@@ -378,4 +386,35 @@ h1 {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.credits {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.credits h2 {
+  margin-bottom: 1rem;
+}
+
+.credits-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.credits-group {
+  padding: 1rem 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fafafa;
+}
+
+.credits-group h3 {
+  margin: 0 0 0.4rem 0;
+  font-size: 1rem;
+}
+
+.credits-group p {
+  margin: 0;
+  line-height: 1.6;
 }
