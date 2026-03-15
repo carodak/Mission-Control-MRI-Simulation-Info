@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mission Control MRI Simulation | Official Information</title>
+  <meta
+    name="description"
+    content="Official information page for the Mission Control VR MRI simulation app, including an overview, privacy policy, terms of service, and disclaimers."
+  />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top">Mission Control</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#top">Home</a>
+        <a href="#pp-tos">Privacy & Terms</a>
+        <a href="#links">Links</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Official Information</p>
+        <h1>Mission Control</h1>
+        <p class="subtitle">
+          Official information page for the Mission Control VR MRI simulation app.
+        </p>
+
+        <div class="hero-actions">
+          <button
+            class="btn btn-primary"
+            type="button"
+            onclick="toggleDocument('privacy', 'en', this)"
+            aria-expanded="false"
+            aria-controls="privacyContentEn"
+          >
+            Privacy Policy
+          </button>
+
+          <button
+            class="btn btn-primary"
+            type="button"
+            onclick="toggleDocument('terms', 'en', this)"
+            aria-expanded="false"
+            aria-controls="termsContentEn"
+          >
+            Terms of Service
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container narrow">
+        <h2>Overview</h2>
+        <p>
+          Mission Control is a free VR MRI simulation app. This page provides official public information about it.
+        </p>
+
+        <div class="description notice">
+          <p> 
+            You will embark on an immersive, story-driven VR adventure that familiarizes you with the MRI procedure. Discover every step of the MRI journey in a playful, interactive way.
+            You will step into the shoes of a special astronaut with one mission: to reach the Moon. To succeed, you must board your spaceship and stay on course at all times. Our Mission Control center will be watching over you! We will send real-time feedback if you move and your ship drifts off its path.
+
+            Are you ready, astronaut?
+          </p>
+        </div>
+
+        <div class="video-card">
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/watch?v=TqKYYMTgo8E"
+              title="Mission Control Demo Video"
+              frameborder="0"
+              allow="autoplay"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container narrow">
+        <h2>Important Information</h2>
+
+        <div class="notice">
+          <p>
+            <strong>Note:</strong> Please refer to the app listing, Privacy Policy,
+            and Terms of Service for important information regarding the use of this app.
+          </p>
+        </div>
+
+        <div class="placeholder-card">
+          <h3>Disclaimer</h3>
+          <p>
+            WE DO NOT WARRANT THAT YOUR USE OF THE APPLICATION WILL BE ERROR-FREE OR UNINTERRUPTED. THE APPLICATION IS NOT DESIGNED FOR DIAGNOSTIC, THERAPEUTIC, OR OTHER MEDICAL PURPOSES.THE APPLICATION IS PROVIDED ‘AS IS’. 
+
+            Use is at your own risk. The developers and collaborators assume no responsibility for any form of damages that may result from your use or inability to use the application. This includes, without limitation, any loss of data, interruption of service, or damage to your device or equipment. 
+
+            The content provided on the application is for informational purposes only. We do not guarantee the accuracy, completeness, or reliability of any content, and are not responsible for any errors or omissions.
+
+            This VR experience may cause discomfort or motion sensitivity. Use in a safe environment and stop if you feel unwell. By using this application, you acknowledge and accept the potential risks associated with VR use.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pp-tos" class="section">
+      <div class="container narrow">
+        <h2 id="privacy-terms">Privacy & Terms</h2>
+
+        <div class="cards">
+          <article class="card">
+            <h3 id="privacy">Privacy Policy</h3>
+            <p>
+              Read the official Privacy Policy for Mission Control MRI Simulation.
+            </p>
+
+            <button
+              class="text-button"
+              type="button"
+              onclick="toggleDocument('privacy', 'en', this)"
+              aria-expanded="false"
+              aria-controls="privacyContentEn"
+            >
+              Show Privacy Policy (EN)
+            </button>
+
+            <button
+              class="text-button"
+              type="button"
+              onclick="toggleDocument('privacy', 'fr', this)"
+              aria-expanded="false"
+              aria-controls="privacyContentFr"
+            >
+              Afficher la politique de confidentialité (FR)
+            </button>
+          </article>
+
+          <article class="card">
+            <h3 id="terms">Terms of Service</h3>
+            <p>
+              Read the official Terms of Service for Mission Control MRI Simulation.
+            </p>
+
+            <button
+              class="text-button"
+              type="button"
+              onclick="toggleDocument('terms', 'en', this)"
+              aria-expanded="false"
+              aria-controls="termsContentEn"
+            >
+              Show Terms of Service (EN)
+            </button>
+
+            <div class="secondary-link-wrap">
+              <button
+                class="text-button"
+                type="button"
+                onclick="toggleDocument('terms', 'fr', this)"
+                aria-expanded="false"
+                aria-controls="termsContentFr"
+              >
+                Afficher les conditions d’utilisation (FR)
+              </button>
+            </div>
+          </article>
+        </div>
+
+        <!-- Privacy EN -->
+        <div id="privacyContentEn" class="document-panel hidden" aria-hidden="true">
+          <div class="document-card">
+            <div class="document-header">
+              <h3>Privacy Policy</h3>
+              <button class="close-button" type="button" onclick="closeDocument('privacy', 'en')">
+                Close
+              </button>
+            </div>
+
+            <div class="legal-text">
+             <iframe src="privacy-en.html" title="Privacy" width="100%" height="800"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- Privacy FR -->
+        <div id="privacyContentFr" class="document-panel hidden" aria-hidden="true">
+          <div class="document-card">
+            <div class="document-header">
+              <h3>Politique de confidentialité</h3>
+              <button class="close-button" type="button" onclick="closeDocument('privacy', 'fr')">
+                Fermer
+              </button>
+            </div>
+
+            <div class="legal-text">
+             <iframe src="privacy-fr.html" title="Privacy" width="100%" height="800"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- Terms EN -->
+        <div id="termsContentEn" class="document-panel hidden" aria-hidden="true">
+          <div class="document-card">
+            <div class="document-header">
+              <h3>Terms of Service</h3>
+              <button class="close-button" type="button" onclick="closeDocument('terms', 'en')">
+                Close
+              </button>
+            </div>
+
+            <div class="legal-text">
+             <iframe src="terms-en.html" title="Terms of service" width="100%" height="800"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- Terms FR -->
+        <div id="termsContentFr" class="document-panel hidden" aria-hidden="true">
+          <div class="document-card">
+            <div class="document-header">
+              <h3>Conditions d’utilisation</h3>
+              <button class="close-button" type="button" onclick="closeDocument('terms', 'fr')">
+                Fermer
+              </button>
+            </div>
+
+            <div class="legal-text">
+             <iframe src="terms-fr.html" title="Terms of service" width="100%" height="800"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="links" class="section">
+      <div class="container narrow">
+        <h2>Links</h2>
+        <ul>
+          <li><a href="YOUR_META_STORE_LINK" target="_blank" rel="noopener noreferrer">Meta Store</a></li>
+          <li><a href="https://github.com/CRISPGroup/Mission-Control-MRI-VR/" target="_blank" rel="noopener noreferrer">GitHub Repository</a></li>
+          <li><a href="https://doi.org/10.17605/OSF.IO/NT4GX" target="_blank" rel="noopener noreferrer">OSF Project</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p>
+          For any questions regarding this project, please contact us by clicking <a href="mailto:codeofcaro@gmail.com" target="_blank" rel="noopener noreferrer">here</a>.
+        </p>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Mission Control</p>
+      <div class="footer-links">
+        <a href="#pp-tos">Privacy & Terms</a>
+        <a href="#links">Links</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function getDocumentId(type, lang) {
+      if (type === "privacy" && lang === "en") return "privacyContentEn";
+      if (type === "privacy" && lang === "fr") return "privacyContentFr";
+      if (type === "terms" && lang === "en") return "termsContentEn";
+      if (type === "terms" && lang === "fr") return "termsContentFr";
+      return null;
+    }
+
+    function closePanelById(id) {
+      const panel = document.getElementById(id);
+      if (!panel) return;
+      panel.classList.add("hidden");
+      panel.setAttribute("aria-hidden", "true");
+    }
+
+    function openPanelById(id) {
+      const panel = document.getElementById(id);
+      if (!panel) return;
+      panel.classList.remove("hidden");
+      panel.setAttribute("aria-hidden", "false");
+    }
+
+    function toggleDocument(type, lang, triggerButton = null) {
+      const currentId = getDocumentId(type, lang);
+      if (!currentId) return;
+
+      const currentPanel = document.getElementById(currentId);
+      if (!currentPanel) return;
+
+      const siblingLang = lang === "en" ? "fr" : "en";
+      const siblingId = getDocumentId(type, siblingLang);
+
+      const isHidden = currentPanel.classList.contains("hidden");
+
+      if (isHidden) {
+        if (siblingId) closePanelById(siblingId);
+        openPanelById(currentId);
+
+        if (triggerButton) {
+          triggerButton.setAttribute("aria-expanded", "true");
+        }
+
+        setTimeout(() => {
+          currentPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 50);
+      } else {
+        closePanelById(currentId);
+
+        if (triggerButton) {
+          triggerButton.setAttribute("aria-expanded", "false");
+        }
+      }
+    }
+
+    function closeDocument(type, lang) {
+      const id = getDocumentId(type, lang);
+      if (!id) return;
+      closePanelById(id);
+    }
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
