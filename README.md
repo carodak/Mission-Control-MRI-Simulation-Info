@@ -2,14 +2,15 @@
 
 Official public information website for the Mission Control VR MRI simulation app.
 
-This repository hosts the public-facing website, including:
+This repository hosts the official website, including:
 - app overview
 - privacy policy
 - terms of use
-- important notices
+- links
 
 ## Live site
-[GitHub Pages link]
+https://carodak.github.io/Mission-Control-MRI-Simulation-Info/
 
 ## Related repositories
-- Source code: [link to code repo]
+- <a href="https://github.com/CRISPGroup/Mission-Control-MRI-VR">Mission Control Source Code</a>
+- <a href="https://github.com/carodak/missioncontrol-view-mirrorer">Mission Control View Mirroring App</a>
